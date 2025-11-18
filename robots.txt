@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://bbuing9.github.io/sitemap.xml
+Sitemap: https://ml3.yonsei.ac.kr/sitemap.xml
