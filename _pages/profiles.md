@@ -26,20 +26,24 @@ page_class: no-title
 - **Hyunjin Cho** - MS/Ph.D. (2025 Fall)
 - **Minseo Kwak** - MS (2025 Fall)
 - **[Minjoo Gwak](https://minjugwak.netlify.app/)** - MS (2025 Fall)
-- **Youngbin Seo** - Visiting Scholar
+- **Youngbin Seo** - Visiting Scholar (2025 Fall)
+- **Seongyong Park** @ MS/Ph.D. (2026 Spring)
+- **Minjae Kang** @ MS/Ph.D. (2026 Spring)
+- **Janghan Yoon** @ MS/Ph.D. (2026 Spring)
+- **Seoyeon Kim** @ MS (2026 Spring)
+- **Youngji Roh** @ MS (2026 Spring)
 
 <!-- Alumni section -->
 
 ### Interns 
 
-- **Seongyong Park** @ BS, Yonsei CS
-- **Minjae Kang** @ BS, SKKU EE
-- **Seoyeon Kim** @ BS, Yonsei Applied Statistics
-- **Youngji Roh** @ BS, Yonsei Biotechnology
 - **Jimyung Hong** @ BS, Yonsei AI
 - **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** @ BS, Yonsei Econ. and CS
 - **Youngjoo Lee** @ BS, Yonsei CS
-- **Minsung Cho** @ BS, Yonsei ME and CS
 - **Yejun Chun** @ BS, Yonsei AI
 - **Jihoon Lee** @ MS, Yonsei Digital Analytics
-
+- **Minji Jung** @ BS, Yonsei AI
+- **Kwangmin Ki** @ BS, Korea Life Sciences and CSE
+- **Hyewon Nam** @ BS, Yonsei AI
+- **Jaewon Jung** @ BS, Yonsei AI
+- **Harin Lee** @ BS, Yonsei AI
