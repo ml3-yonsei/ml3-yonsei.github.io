@@ -17,7 +17,7 @@ page_class: no-title
 
 ### Graduate Students 
 
-- **Hamin Koo** - MS (2025 Spring)
+- **[Hamin Koo](https://hamin2065.github.io/)** - MS (2025 Spring)
 - **Hojin Kim** - MS (2025 Spring)
 - **Jinhyeong Kim** - MS (2025 Spring)
 - **[Beomsik Cho](https://bscho333.notion.site/)** - MS (2025 Spring)
