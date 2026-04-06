@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Five papers** (**[AMIS](https://openreview.net/forum?id=gGjwMNAYAr)**, **[DIRECTER](https://openreview.net/forum?id=OpuPBNcQwe)**, **[TITOK](https://openreview.net/forum?id=0B5K9pIdSK)**, **[Prior Filtering](https://openreview.net/forum?id=VDjbFzbD2f)**, and **[RPM](https://openreview.net/forum?id=oKKVLHFzZ8)**) are accepted to ICLR 2026!
+**Six papers** (**[AMIS](https://openreview.net/forum?id=gGjwMNAYAr)**, **[DIRECTER](https://openreview.net/forum?id=OpuPBNcQwe)**, **[TITOK](https://openreview.net/forum?id=0B5K9pIdSK)**, **[Prior Filtering](https://openreview.net/forum?id=VDjbFzbD2f)**, **[RPM](https://openreview.net/forum?id=oKKVLHFzZ8)**, and **[HEX](https://openreview.net/forum?id=L5y7in91vd)**) are accepted to ICLR 2026!
