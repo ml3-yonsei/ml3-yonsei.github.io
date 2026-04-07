@@ -64,7 +64,7 @@ ninja.data = [{
           title: 'Three papers (CoPe, PriME and CLEANMOL) are accepted to EMNLP 2025 including Oral...',
           description: "",
           section: "News",},{id: "news-two-papers-robot-r1-and-dllm-conv-are-accepted-to-neurips-2025-including-spotlight-presentation-207-21575-3-19",
-          title: 'Two papers (Robot-R1 and DLLM-Conv) are accepted to NeurIPS 2025 including Spotlight Presentation...',
+          title: 'Two papers (Robot-R1 and DLLM-Conv) are accepted to NeurIPS 2025, including Spotlight Presentation...',
           description: "",
           section: "News",},{id: "news-jaehyung-will-serve-as-an-area-chair-for-neurips-2025-iclr-2026-arr-2025-oct",
           title: 'Jaehyung will serve as an Area Chair for NeurIPS 2025, ICLR 2026, ARR...',
