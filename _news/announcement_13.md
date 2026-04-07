@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Six papers** (4 Main, 2 Findings) are accepted to ACL 2026!
+**Six papers** (**[ReVisiT](https://arxiv.org/abs/2506.09522)**, **[EMCee](https://arxiv.org/abs/2503.05846)**, **[Critical Dimension](https://arxiv.org/abs/2603.00029)**, **[Gap-K](https://arxiv.org/abs/2601.19936)**, **[DIET](https://arxiv.org/abs/2603.23985)**, and [Reasoning UID](https://arxiv.org/abs/2510.06953)**) are accepted to ACL 2026!
