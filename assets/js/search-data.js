@@ -61,7 +61,7 @@ ninja.data = [{
           title: 'Two papers (MSR and PFP) are accepted to ACL 2025!',
           description: "",
           section: "News",},{id: "news-three-papers-cope-prime-and-cleanmol-are-accepted-to-emnlp-2025-including-oral-presentation-357-3548-10-0",
-          title: 'Three papers (CoPe, PriME and CLEANMOL) are accepted to EMNLP 2025 including Oral...',
+          title: 'Three papers (CoPe, PriME and CLEANMOL) are accepted to EMNLP 2025, including Oral...',
           description: "",
           section: "News",},{id: "news-two-papers-robot-r1-and-dllm-conv-are-accepted-to-neurips-2025-including-spotlight-presentation-207-21575-3-19",
           title: 'Two papers (Robot-R1 and DLLM-Conv) are accepted to NeurIPS 2025, including Spotlight Presentation...',
