@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**[SPA](https://arxiv.org/abs/2406.04412)** is accepted to ICLR 2025 as **Oral Presentation (207/11672=1.77%)**!
+**[SPA](https://arxiv.org/abs/2406.04412)** is accepted to ICLR 2025 as *Oral Presentation (207/11672=1.77%)*!
