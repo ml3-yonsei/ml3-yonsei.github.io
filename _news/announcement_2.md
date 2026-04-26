@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Jaehyung** will serve as an **Area Chair** for NeurIPS 2025, ICLR 2026, ARR 2025 Oct!
+**Jaehyung** will serve as an **Area Chair** for NeurIPS, ICLR, ARR!
