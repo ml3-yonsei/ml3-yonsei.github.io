@@ -78,7 +78,7 @@ ninja.data = [{
           section: "News",},{id: "news-six-papers-amis-directer-titok-prior-filtering-rpm-and-hex-are-accepted-to-iclr-2026",
           title: 'Six papers (AMIS, DIRECTER, TITOK, Prior Filtering, RPM, and HEX) are accepted to...',
           description: "",
-          section: "News",},{id: "news-five-papers-revisit-emcee-critical-dimension-gap-k-and-reasoning-uid-are-accepted-to-acl-2026-including-oral-presentation",
+          section: "News",},{id: "news-five-papers-revisit-emcee-critical-dimension-gap-k-and-reasoning-uid-are-accepted-to-acl-2026-including-2-oral-presentations",
           title: 'Five papers (ReVisiT, EMCee, Critical Dimension, Gap-K, and Reasoning UID) are accepted to...',
           description: "",
           section: "News",},{id: "news-rd-clustering-for-llm-interpretability-is-accepted-to-icml-2026-as-spotlight-presentation-536-23918-2-24",
