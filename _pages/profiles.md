@@ -7,13 +7,9 @@ nav_order: 2 # adjust based on your menu ordering
 page_class: no-title
 ---
 
-<!-- Faculty section -->
-
 ### Faculty
 
 - **[Jaehyung Kim](https://sites.google.com/view/jaehyungkim)** - Assistant Professor @ Yonsei AI
-
-<!-- Current members section -->
 
 ### Graduate Students 
 
@@ -30,8 +26,6 @@ page_class: no-title
 - **Janghan Yoon** - MS/Ph.D. (2026 Spring, Co-advised by **[Dae Hyun Kim](https://dhkim16.github.io/))**
 - **Seoyeon Kim** - MS (2026 Spring)
 - **Youngji Roh** - MS (2026 Spring)
-
-<!-- Alumni section -->
 
 ### Interns 
 
