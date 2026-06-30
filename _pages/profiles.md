@@ -25,27 +25,30 @@ page_class: no-title
 - **Hyungjune Bu** - MS/Ph.D. (2025 Fall)
 - **Hyunjin Cho** - MS/Ph.D. (2025 Fall)
 - **Minseo Kwak** - MS (2025 Fall)
-- **[Minju Gwak](https://minjugwak.netlify.app/)** - MS (2025 Fall)
-- **Youngbin Seo** - Visiting Scholar (2025 Fall)
-- **Seongyong Park** @ MS/Ph.D. (2026 Spring)
-- **[Minjae Kang](https://mjk0618.github.io/)** @ MS/Ph.D. (2026 Spring)
-- **Janghan Yoon** @ MS/Ph.D. (2026 Spring, Co-advised by **[Dae Hyun Kim](https://dhkim16.github.io/))**
-- **Seoyeon Kim** @ MS (2026 Spring)
-- **Youngji Roh** @ MS (2026 Spring)
+- **Seongyong Park** - MS/Ph.D. (2026 Spring)
+- **[Minjae Kang](https://mjk0618.github.io/)** - MS/Ph.D. (2026 Spring)
+- **Janghan Yoon** - MS/Ph.D. (2026 Spring, Co-advised by **[Dae Hyun Kim](https://dhkim16.github.io/))**
+- **Seoyeon Kim** - MS (2026 Spring)
+- **Youngji Roh** - MS (2026 Spring)
 
 <!-- Alumni section -->
 
 ### Interns 
 
-- **Jimyung Hong** @ BS, Yonsei AI
-- **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** @ BS, Yonsei Econ. and CS
-- **Youngjoo Lee** @ BS, Yonsei CS
-- **Yejun Chun** @ BS, Yonsei AI
-- **Jihoon Lee** @ MS, Yonsei Digital Analytics
-- **Minji Jung** @ BS, Yonsei AI
-- **Kwangmin Ki** @ BS, Korea Life Sciences and CSE
-- **Hyewon Nam** @ BS, Yonsei AI
-- **Jaewon Jung** @ BS, Yonsei AI
-- **Harin Lee** @ BS, Yonsei AI
-- **Sehyun Nam** @ BS, Yonsei AI
+- **Jimyung Hong** - BS, Yonsei AI
+- **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** - BS, Yonsei Econ. and CS
+- **Youngjoo Lee** - BS, Yonsei CS
+- **Yejun Chun** - BS, Yonsei AI
+- **Jihoon Lee** - MS, Yonsei Digital Analytics
+- **Minji Jung** - BS, Yonsei AI
+- **Kwangmin Ki** - BS, Korea Life Sciences and CSE
+- **Hyewon Nam** - BS, Yonsei AI
+- **Jaewon Jung** - BS, Yonsei AI
+- **Harin Lee** - BS, Yonsei AI
+- **Sehyun Nam** - BS, Yonsei AI
+
+### Alumni 
+
+- **[Minju Gwak](https://minjugwak.netlify.app/)** (MS, 2026) - MSCS, Georgia Institute of Technology 
+- **Youngbin Seo** (Visiting Scholar, 2026) - Ph.D., University of Toronto 
 
