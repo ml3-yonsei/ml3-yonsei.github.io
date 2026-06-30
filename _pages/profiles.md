@@ -25,7 +25,7 @@ page_class: no-title
 - **Hyungjune Bu** - MS/Ph.D. (2025 Fall)
 - **Hyunjin Cho** - MS/Ph.D. (2025 Fall)
 - **Minseo Kwak** - MS (2025 Fall)
-- **[Minjoo Gwak](https://minjugwak.netlify.app/)** - MS (2025 Fall)
+- **[Minju Gwak](https://minjugwak.netlify.app/)** - MS (2025 Fall)
 - **Youngbin Seo** - Visiting Scholar (2025 Fall)
 - **Seongyong Park** @ MS/Ph.D. (2026 Spring)
 - **[Minjae Kang](https://mjk0618.github.io/)** @ MS/Ph.D. (2026 Spring)
