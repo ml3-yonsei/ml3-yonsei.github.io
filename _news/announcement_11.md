@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**LfU** is accepted to AAAI 2026 as _Oral Presentation_!
+**[LfU](https://arxiv.org/abs/2511.13052)** is accepted to AAAI 2026 as _Oral Presentation_!
