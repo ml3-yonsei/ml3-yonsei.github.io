@@ -26,12 +26,13 @@ page_class: no-title
 - **Janghan Yoon** - MS/Ph.D. (2026 Spring, Co-advised by **[Dae Hyun Kim](https://dhkim16.github.io/))**
 - **Seoyeon Kim** - MS (2026 Spring)
 - **Youngji Roh** - MS (2026 Spring)
+- **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** - MS (2026 Fall)
+- **Youngjoo Lee** - MS (2026 Fall)
+
 
 ### Interns 
 
 - **Jimyung Hong** - BS, Yonsei AI
-- **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** - BS, Yonsei Econ. and CS
-- **Youngjoo Lee** - BS, Yonsei CS
 - **Yejun Chun** - BS, Yonsei AI
 - **Jihoon Lee** - MS, Yonsei Digital Analytics
 - **Minji Jung** - BS, Yonsei AI
