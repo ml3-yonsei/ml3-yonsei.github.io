@@ -24,7 +24,7 @@ page_class: no-title
 - **Seongyong Park** - MS/Ph.D. (2026 Spring)
 - **[Minjae Kang](https://mjk0618.github.io/)** - MS/Ph.D. (2026 Spring)
 - **Janghan Yoon** - MS/Ph.D. (2026 Spring, Co-advised by **[Dae Hyun Kim](https://dhkim16.github.io/))**
-- **Seoyeon Kim** - MS (2026 Spring)
+- **[Seoyeon Kim](https://ssseoyneee.github.io/)** - MS (2026 Spring)
 - **Youngji Roh** - MS (2026 Spring)
 - **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** - MS (2026 Fall)
 - **Youngjoo Lee** - MS (2026 Fall)
