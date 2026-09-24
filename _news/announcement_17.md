@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**Two papers** (**[HuB-J]** and **[ReCon]**) are accepted to NeurIPS 2026!
+**Two papers** (**HuB-J** and **ReCon**) are accepted to NeurIPS 2026!
