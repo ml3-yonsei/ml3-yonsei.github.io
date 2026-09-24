@@ -91,7 +91,7 @@ ninja.data = [{
           title: 'Seven papers (ReFeri, CPR, SyRuP, SPRInG, InterPol, LookBack, and LaRA) are accepted to...',
           description: "",
           section: "News",},{id: "news-two-papers-hub-j-and-recon-are-accepted-to-neurips-2026",
-          title: 'Two papers ([HuB-J] and [ReCon]) are accepted to NeurIPS 2026!',
+          title: 'Two papers (HuB-J and ReCon) are accepted to NeurIPS 2026!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
