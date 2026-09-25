@@ -87,7 +87,7 @@ ninja.data = [{
           section: "News",},{id: "news-a11yn-is-accepted-to-colm-2026",
           title: 'A11yn is accepted to COLM 2026!',
           description: "",
-          section: "News",},{id: "news-seven-papers-referi-cpr-syrup-spring-interpol-lookback-and-lara-are-accepted-to-emnlp-2026",
+          section: "News",},{id: "news-seven-papers-referi-cpr-syrup-spring-interpol-lookback-and-lara-are-accepted-to-emnlp-2026-including-3-oral-presentations",
           title: 'Seven papers (ReFeri, CPR, SyRuP, SPRInG, InterPol, LookBack, and LaRA) are accepted to...',
           description: "",
           section: "News",},{id: "news-two-papers-hub-j-and-recon-are-accepted-to-neurips-2026",
