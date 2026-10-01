@@ -17,7 +17,7 @@ page_class: no-title
 - **Hojin Kim** - MS (2025 Spring)
 - **Jinhyeong Kim** - MS (2025 Spring)
 - **[Beomsik Cho](https://bscho333.notion.site/)** - MS (2025 Spring)
-- **Dongseok Lee** - MS (2025 Fall)
+- **[Dongseok Lee](https://dongseok1220.github.io/)** - MS (2025 Fall)
 - **Hyungjune Bu** - MS/Ph.D. (2025 Fall)
 - **Hyunjin Cho** - MS/Ph.D. (2025 Fall)
 - **Minseo Kwak** - MS (2025 Fall)
