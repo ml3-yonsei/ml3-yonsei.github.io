@@ -45,5 +45,5 @@ page_class: no-title
 ### Alumni 
 
 - **[Minju Gwak](https://minjugwak.netlify.app/)** (MS, 2026) - MSCS, Georgia Institute of Technology 
-- **[Youngbin Seo](https://ybseo-ac.github.io/)** (Visiting Scholar, 2026) - Ph.D., University of Toronto 
+- **[Yeongbin Seo](https://ybseo-ac.github.io/)** (Visiting Scholar, 2026) - Ph.D., University of Toronto 
 
