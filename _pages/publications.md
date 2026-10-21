@@ -16,7 +16,7 @@ page_class: no-title
 <div class="publications">
 
 <p class="author-note">
-  <sup>*</sup> denotes equal contribution.
+  <sup>*</sup> denotes equal contribution. <sup>†</sup> denotes equal advising.
 </p>
 
 {% bibliography %}
