@@ -32,15 +32,13 @@ page_class: no-title
 
 ### Interns 
 
-- **Jimyung Hong** - BS, Yonsei AI
-- **Yejun Chun** - BS, Yonsei AI
-- **Jihoon Lee** - MS, Yonsei Digital Analytics
-- **Minji Jung** - BS, Yonsei AI
-- **Kwangmin Ki** - BS, Korea Life Sciences and CSE
-- **Hyewon Nam** - BS, Yonsei AI
-- **Jaewon Jung** - BS, Yonsei AI
-- **Harin Lee** - BS, Yonsei AI
-- **Sehyun Nam** - BS, Yonsei AI
+- **Yejun Chun** - BS, Yonsei University
+- **Jihoon Lee** - MS, Yonsei University
+- **Minji Jung** - BS, Yonsei University
+- **[Kwangmin Ki](https://kwangmin-ki.github.io/)** - BS, Korea University
+- **Jaewon Jung** - BS, Yonsei University
+- **Harin Lee** - BS, Yonsei University
+- **Sehyun Nam** - BS, Yonsei University
 
 ### Alumni 
 
