@@ -2,9 +2,19 @@
   <div class="publication-filter-row" role="group" aria-labelledby="publication-topic-label" data-topic-filters>
     <span class="publication-filter-label" id="publication-topic-label">Topic</span>
     <div class="publication-filter-options">
-      <button type="button" class="publication-filter-button" data-topic-filter="all" aria-pressed="true" aria-controls="publication-list">All topics</button>
+      <button type="button" class="publication-filter-button" data-topic-filter="all" aria-pressed="true" aria-controls="publication-list">
+        All topics
+      </button>
       {% for topic in site.data.publication_topics %}
-        <button type="button" class="publication-filter-button" data-topic-filter="{{ topic.id | escape }}" aria-pressed="false" aria-controls="publication-list">{{ topic.label | escape }}</button>
+        <button
+          type="button"
+          class="publication-filter-button"
+          data-topic-filter="{{ topic.id | escape }}"
+          aria-pressed="false"
+          aria-controls="publication-list"
+        >
+          {{ topic.label | escape }}
+        </button>
       {% endfor %}
     </div>
   </div>
@@ -12,17 +22,41 @@
   <div class="publication-filter-row" role="group" aria-labelledby="publication-highlight-label">
     <span class="publication-filter-label" id="publication-highlight-label">Highlight</span>
     <div class="publication-filter-options">
-      <button type="button" class="publication-filter-button" data-highlight-filter="all" aria-pressed="true" aria-controls="publication-list">All papers</button>
-      <button type="button" class="publication-filter-button" data-highlight-filter="highlights" aria-pressed="false" aria-controls="publication-list">Highlights only</button>
-      <button type="button" class="publication-filter-button" data-highlight-filter="oral" aria-pressed="false" aria-controls="publication-list">Oral</button>
-      <button type="button" class="publication-filter-button" data-highlight-filter="spotlight" aria-pressed="false" aria-controls="publication-list">Spotlight</button>
-      <button type="button" class="publication-filter-button" data-highlight-filter="award" aria-pressed="false" aria-controls="publication-list">Awards</button>
+      <button type="button" class="publication-filter-button" data-highlight-filter="all" aria-pressed="true" aria-controls="publication-list">
+        All papers
+      </button>
+      <button
+        type="button"
+        class="publication-filter-button"
+        data-highlight-filter="highlights"
+        aria-pressed="false"
+        aria-controls="publication-list"
+      >
+        Highlights only
+      </button>
+      <button type="button" class="publication-filter-button" data-highlight-filter="oral" aria-pressed="false" aria-controls="publication-list">
+        Oral
+      </button>
+      <button type="button" class="publication-filter-button" data-highlight-filter="spotlight" aria-pressed="false" aria-controls="publication-list">
+        Spotlight
+      </button>
+      <button type="button" class="publication-filter-button" data-highlight-filter="award" aria-pressed="false" aria-controls="publication-list">
+        Awards
+      </button>
     </div>
   </div>
 
   <div class="publication-search-row">
     <label class="sr-only" for="publication-search">Search publications by title, author, or venue</label>
-    <input id="publication-search" class="publication-search" data-publication-search type="search" placeholder="Search title, author, or venue" aria-controls="publication-list" autocomplete="off">
+    <input
+      id="publication-search"
+      class="publication-search"
+      data-publication-search
+      type="search"
+      placeholder="Search title, author, or venue"
+      aria-controls="publication-list"
+      autocomplete="off"
+    >
     <button type="button" class="publication-clear" data-publication-clear disabled>Clear filters</button>
   </div>
   <p class="publication-filter-status" data-publication-status role="status" aria-live="polite" aria-atomic="true"></p>

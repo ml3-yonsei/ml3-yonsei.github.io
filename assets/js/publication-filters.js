@@ -20,7 +20,11 @@
       oral: /\boral\b/.test(highlight),
       spotlight: /\bspotlight\b/.test(highlight),
       award: Boolean(award),
-      text: normalize(Array.from(entry.querySelectorAll(".title, .author, .periodical, .pub-highlight, .publication-topics")).map((part) => part.textContent).join(" ")),
+      text: normalize(
+        Array.from(entry.querySelectorAll(".title, .author, .periodical, .pub-highlight, .publication-topics"))
+          .map((part) => part.textContent)
+          .join(" ")
+      ),
     };
   });
 
@@ -56,7 +60,8 @@
     const query = normalize(search.value);
     let count = 0;
     papers.forEach((paper) => {
-      const matches = (topic === "all" || paper.topics.has(topic)) && (recognition === "all" || paper[recognition]) && (!query || paper.text.includes(query));
+      const matches =
+        (topic === "all" || paper.topics.has(topic)) && (recognition === "all" || paper[recognition]) && (!query || paper.text.includes(query));
       paper.element.hidden = !matches;
       if (matches) count += 1;
     });
@@ -76,20 +81,28 @@
     highlightButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.highlightFilter === recognition)));
     const topicLabel = topicButtons.find((button) => button.dataset.topicFilter === topic).textContent.trim();
     const highlightLabel = highlightButtons.find((button) => button.dataset.highlightFilter === recognition).textContent.trim();
-    const details = [topic !== "all" ? topicLabel : "", recognition !== "all" ? highlightLabel : "", query ? `Search: ${search.value.trim()}` : ""].filter(Boolean);
+    const details = [
+      topic !== "all" ? topicLabel : "",
+      recognition !== "all" ? highlightLabel : "",
+      query ? `Search: ${search.value.trim()}` : "",
+    ].filter(Boolean);
     status.textContent = `${count} of ${papers.length} ${papers.length === 1 ? "paper" : "papers"}${details.length ? ` · ${details.join(" · ")}` : ""}`;
     empty.hidden = count > 0;
     clear.disabled = topic === "all" && recognition === "all" && !query;
   }
 
-  topicButtons.forEach((button) => button.addEventListener("click", () => {
-    topic = button.dataset.topicFilter;
-    update();
-  }));
-  highlightButtons.forEach((button) => button.addEventListener("click", () => {
-    recognition = button.dataset.highlightFilter;
-    update();
-  }));
+  topicButtons.forEach((button) =>
+    button.addEventListener("click", () => {
+      topic = button.dataset.topicFilter;
+      update();
+    })
+  );
+  highlightButtons.forEach((button) =>
+    button.addEventListener("click", () => {
+      recognition = button.dataset.highlightFilter;
+      update();
+    })
+  );
   search.addEventListener("input", update);
   clear.addEventListener("click", () => {
     topic = "all";

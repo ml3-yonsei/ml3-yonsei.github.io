@@ -8,7 +8,6 @@ page_class: no-title
 lab_content: true
 description: Group photos and shared moments from life at Yonsei ML3.
 ---
-
 <section class="lab-content" aria-labelledby="gallery-heading" data-gallery>
   <header class="lab-page-header">
     <h1 id="gallery-heading">Gallery</h1>
@@ -23,7 +22,15 @@ description: Group photos and shared moments from life at Yonsei ML3.
         <button type="button" class="gallery-filter" data-gallery-filter="all" aria-pressed="true" aria-controls="gallery-grid">All</button>
         {% for category in categories %}
           {% if category != '' %}
-            <button type="button" class="gallery-filter" data-gallery-filter="{{ category | escape }}" aria-pressed="false" aria-controls="gallery-grid">{{ category | escape }}</button>
+            <button
+              type="button"
+              class="gallery-filter"
+              data-gallery-filter="{{ category | escape }}"
+              aria-pressed="false"
+              aria-controls="gallery-grid"
+            >
+              {{ category | escape }}
+            </button>
           {% endif %}
         {% endfor %}
       </div>
@@ -40,7 +47,12 @@ description: Group photos and shared moments from life at Yonsei ML3.
           {% assign photo_date = photo.date | date: '%b %d, %Y' %}
         {% endif %}
         <article class="gallery-card" data-gallery-card data-category="{{ photo.category | escape }}">
-          <a class="gallery-photo-link" href="{{ photo.image | relative_url }}" data-gallery-photo aria-label="View photo: {{ photo.title | escape }}">
+          <a
+            class="gallery-photo-link"
+            href="{{ photo.image | relative_url }}"
+            data-gallery-photo
+            aria-label="View photo: {{ photo.title | escape }}"
+          >
             <img
               src="{{ photo.thumbnail | default: photo.image | relative_url }}"
               alt="{{ photo.alt | default: photo.title | escape }}"
@@ -50,9 +62,16 @@ description: Group photos and shared moments from life at Yonsei ML3.
             <span class="gallery-enlarge" aria-hidden="true">View photo <span>↗</span></span>
           </a>
           <div class="gallery-card-body">
-            <p class="gallery-meta"><time datetime="{{ photo_datetime | escape }}">{{ photo_date }}</time>{% if photo.category and photo.category != '' %}<span>{{ photo.category | escape }}</span>{% endif %}</p>
+            <p class="gallery-meta">
+              <time datetime="{{ photo_datetime | escape }}">{{ photo_date }}</time>
+              {%- if photo.category and photo.category != '' -%}
+                <span>{{ photo.category | escape }}</span>
+              {%- endif %}
+            </p>
             <h2 data-photo-title>{{ photo.title | escape }}</h2>
-            {% if photo.caption and photo.caption != '' %}<p class="gallery-caption" data-photo-caption>{{ photo.caption | escape }}</p>{% endif %}
+            {% if photo.caption and photo.caption != '' %}
+              <p class="gallery-caption" data-photo-caption>{{ photo.caption | escape }}</p>
+            {% endif %}
           </div>
         </article>
       {% endfor %}
@@ -62,7 +81,9 @@ description: Group photos and shared moments from life at Yonsei ML3.
       <div class="gallery-lightbox-content">
         <div class="gallery-lightbox-toolbar">
           <span class="gallery-lightbox-counter" aria-live="polite" data-gallery-counter></span>
-          <button type="button" class="gallery-lightbox-button" data-gallery-close aria-label="Close photo">Close <span aria-hidden="true">×</span></button>
+          <button type="button" class="gallery-lightbox-button" data-gallery-close aria-label="Close photo">
+            Close <span aria-hidden="true">×</span>
+          </button>
         </div>
         <figure class="gallery-lightbox-figure">
           <img class="gallery-lightbox-image" data-gallery-image alt="">
@@ -73,9 +94,15 @@ description: Group photos and shared moments from life at Yonsei ML3.
           </figcaption>
         </figure>
         <div class="gallery-lightbox-navigation">
-          <button type="button" class="gallery-lightbox-button" data-gallery-prev aria-label="Previous photo"><span aria-hidden="true">←</span> Previous</button>
-          <a class="gallery-lightbox-button" data-gallery-original target="_blank" rel="noopener noreferrer">Open full image <span aria-hidden="true">↗</span></a>
-          <button type="button" class="gallery-lightbox-button" data-gallery-next aria-label="Next photo">Next <span aria-hidden="true">→</span></button>
+          <button type="button" class="gallery-lightbox-button" data-gallery-prev aria-label="Previous photo">
+            <span aria-hidden="true">←</span> Previous
+          </button>
+          <a class="gallery-lightbox-button" data-gallery-original target="_blank" rel="noopener noreferrer"
+            >Open full image <span aria-hidden="true">↗</span></a
+          >
+          <button type="button" class="gallery-lightbox-button" data-gallery-next aria-label="Next photo">
+            Next <span aria-hidden="true">→</span>
+          </button>
         </div>
       </div>
     </dialog>

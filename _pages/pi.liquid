@@ -8,19 +8,38 @@ page_class: no-title
 lab_content: true
 description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of the Machine and Language Learning Lab.
 ---
-
 {% assign pi = site.data.pi %}
 <div class="lab-content pi-page">
   <header class="pi-profile">
-    <img class="pi-portrait" src="{{ pi.portrait | relative_url }}" alt="Portrait of {{ pi.name | escape }}" width="600" height="836" decoding="async">
+    <img
+      class="pi-portrait"
+      src="{{ pi.portrait | relative_url }}"
+      alt="Portrait of {{ pi.name | escape }}"
+      width="600"
+      height="836"
+      decoding="async"
+    >
     <div class="pi-profile-info">
       <p class="pi-eyebrow">Principal Investigator · ML3</p>
       <h1>{{ pi.name | escape }}</h1>
-      <p class="pi-affiliation">{{ pi.position | escape }}<br>{{ pi.department | escape }}<br>{{ pi.institution | escape }}</p>
-      <p class="pi-contact"><a href="mailto:{{ pi.email | escape }}">{{ pi.email | escape }}</a><br><a href="mailto:{{ pi.alternate_email | escape }}">{{ pi.alternate_email | escape }}</a></p>
+      <p class="pi-affiliation">
+        {{ pi.position | escape -}}
+        <br>
+        {{ pi.department | escape -}}
+        <br>
+        {{ pi.institution | escape }}
+      </p>
+      <p class="pi-contact">
+        <a href="mailto:{{ pi.email | escape }}">{{ pi.email | escape }}</a><br>
+        <a href="mailto:{{ pi.alternate_email | escape }}">{{ pi.alternate_email | escape }}</a>
+      </p>
       <div class="talk-links">
-        <a class="lab-resource-link" href="{{ pi.scholar_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-        <a class="lab-resource-link" href="{{ pi.cv_url | escape }}" target="_blank" rel="noopener noreferrer">CV <span class="pi-cv-date">({{ pi.cv_updated | escape }})</span> <span aria-hidden="true">↗</span></a>
+        <a class="lab-resource-link" href="{{ pi.scholar_url | escape }}" target="_blank" rel="noopener noreferrer"
+          >Google Scholar <span aria-hidden="true">↗</span></a
+        >
+        <a class="lab-resource-link" href="{{ pi.cv_url | escape }}" target="_blank" rel="noopener noreferrer"
+          >CV <span class="pi-cv-date">({{ pi.cv_updated | escape }})</span> <span aria-hidden="true">↗</span></a
+        >
       </div>
     </div>
   </header>
@@ -41,7 +60,11 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
     <ul class="pi-experience-list">
       {% for experience in pi.experience %}
         <li>
-          <div class="pi-entry-heading"><strong>{{ experience.role | escape }}, <a href="{{ experience.url | escape }}">{{ experience.organization | escape }}</a></strong><span class="pi-entry-date">{{ experience.period | escape }}</span></div>
+          <div class="pi-entry-heading">
+            <strong>
+              {{- experience.role | escape }}, <a href="{{ experience.url | escape }}">{{ experience.organization | escape }}</a></strong
+            ><span class="pi-entry-date">{{ experience.period | escape }}</span>
+          </div>
           <p>{{ experience.location | escape }} · with {{ experience.collaborators | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         </li>
       {% endfor %}
@@ -54,7 +77,14 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
       {% for award in pi.awards %}
         <li>
           <span class="pi-award-year">{{ award.year | escape }}</span>
-          <span>{% if award.url %}<a href="{{ award.url | escape }}">{{ award.title | escape }}</a>{% else %}<strong>{{ award.title | escape }}</strong>{% endif %}{% if award.detail %} ({{ award.detail | escape }}){% endif %}, {{ award.organization | escape }}</span>
+          <span>
+            {%- if award.url -%}
+              <a href="{{ award.url | escape }}">{{ award.title | escape }}</a>
+            {%- else -%}
+              <strong>{{ award.title | escape }}</strong>
+            {%- endif -%}
+            {%- if award.detail %} ({{ award.detail | escape }}){% endif %}, {{ award.organization | escape -}}
+          </span>
         </li>
       {% endfor %}
     </ul>
@@ -65,7 +95,9 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
     {% for service in pi.services %}
       <h3>{{ service.category | escape }}</h3>
       <ul class="pi-service-list">
-        {% for entry in service.entries %}<li>{{ entry | escape }}</li>{% endfor %}
+        {% for entry in service.entries %}
+          <li>{{ entry | escape }}</li>
+        {% endfor %}
       </ul>
     {% endfor %}
 
@@ -75,7 +107,13 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
         <h4>{{ term.semester | escape }}</h4>
         <ul class="pi-service-list">
           {% for course in term.courses %}
-            <li>{{ course.title | escape }} ({{ course.code | escape }}){% if course.note %}<br><span class="pi-teaching-note">{{ course.note | escape }}</span>{% endif %}</li>
+            <li>
+              {{ course.title | escape }} ({{ course.code | escape }})
+              {%- if course.note -%}
+                <br>
+                <span class="pi-teaching-note">{{ course.note | escape }}</span>
+              {%- endif %}
+            </li>
           {% endfor %}
         </ul>
       {% endfor %}
