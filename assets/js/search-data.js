@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/";
           },
+        },{id: "nav-pi",
+          title: "PI",
+          description: "Jaehyung Kim, Assistant Professor at Yonsei University and PI of the Machine and Language Learning Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/pi/";
+          },
         },{id: "nav-members",
           title: "members",
           description: "",
@@ -29,6 +36,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "Group photos and shared moments from life at Yonsei ML3.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
           },
         },{id: "nav-apply",
           title: "apply",
