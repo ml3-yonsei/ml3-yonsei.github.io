@@ -24,5 +24,5 @@ Our current research centers on large language models and their multimodal exten
     <a href="/news/" style="font-size: 0.9rem; font-weight: 500; margin-left: 0.75rem;">(show all)</a>
   </div>
   
-  {% include news.liquid limit=10 scrollable=true %}
+  {% include news.liquid limit=7 scrollable=true %}
 </div>
