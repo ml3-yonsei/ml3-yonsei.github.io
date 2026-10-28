@@ -1,0 +1,116 @@
+# Migrated from https://sites.google.com/view/jaehyungkim.
+# Bio is an editorial draft based on that profile and the current lab research areas.
+name: Jaehyung Kim
+position: Assistant Professor
+department: Department of Artificial Intelligence
+institution: Yonsei University
+portrait: /assets/img/jaehyung-kim.jpg
+email: jaehyungk@yonsei.ac.kr
+alternate_email: wogudehowl@gmail.com
+scholar_url: https://scholar.google.co.kr/citations?user=6OYOsGsAAAAJ&hl=ko
+cv_url: https://drive.google.com/file/d/1MVBNs9KStuvPUDxzpItXGEze44L7jMpy/view?usp=sharing
+cv_updated: Jan 2026
+
+bio: |
+  I am an Assistant Professor in the Department of Artificial Intelligence at Yonsei University, where I lead the Machine and Language Learning Lab (ML3).
+
+  My research aims to build AI systems that are both highly capable and aligned with humans. I develop machine learning and natural language processing algorithms, with a focus on large language models and their multimodal extensions. My interests span alignment, personalization, safety, interpretability, adaptation, self-improvement, multimodality, and evaluation, with the goal of making these systems more accurate and reliable in real-world settings.
+
+  Previously, I was a postdoctoral researcher at Carnegie Mellon University, working with [Yiming Yang](https://www.cs.cmu.edu/~./yiming/). I received my Ph.D. from KAIST under the supervision of [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html). During my Ph.D., I also worked closely with [Dongyeop Kang](https://dykang.github.io/) at the University of Minnesota.
+
+experience:
+  - role: Collaborator
+    organization: Naver AI
+    url: https://clova.ai/
+    location: Jeongja, South Korea
+    period: Nov 2022 – May 2023
+    collaborators: "[Sang-Woo Lee](https://www.sang-woo-lee.com/), [Minjoon Seo](https://seominjoon.github.io/), and [Jung-Woo Ha](https://scholar.google.com/citations?user=eGj3ay4AAAAJ)"
+  - role: Research Intern
+    organization: Meta AI
+    url: https://ai.facebook.com/
+    location: Seattle, WA
+    period: May 2022 – Aug 2022
+    collaborators: "[Madian Khabsa](https://www.madiankhabsa.com/)"
+  - role: Visiting Student
+    organization: University of Minnesota
+    url: https://dykang.github.io/
+    location: Minneapolis, MN
+    period: Feb 2022 – May 2022
+    collaborators: "[Dongyeop Kang](https://dykang.github.io/)"
+  - role: Visiting Student
+    organization: Samsung Advanced Institute of Technology
+    url: https://www.sait.samsung.co.kr/saithome/main/main.do
+    location: Suwon, South Korea
+    period: Jan 2020 – Mar 2020
+    collaborators: "[Eunho Yang](https://sites.google.com/site/yangeh/) and [Sung Ju Hwang](http://www.sungjuhwang.com/)"
+
+awards:
+  - year: "2026"
+    title: SAC Highlight Award
+    organization: EMNLP
+    url: https://drive.google.com/file/d/1IeTJjwzWP9sP1wUEzswYydobcwuEk-RS/view?usp=sharing
+  - year: "2022"
+    title: Winner
+    organization: Qualcomm Innovation Fellowship Korea
+    detail: "$5,000"
+    url: https://www.qualcomm.com/research/university-relations/innovation-fellowship/winners
+  - year: "2021"
+    title: Silver Prize
+    organization: Samsung Humantech Paper Awards
+    detail: "$7,000"
+  - year: "2021"
+    title: Winner
+    organization: Qualcomm Innovation Fellowship Korea
+    detail: "$5,000"
+    url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2021-south-korea
+  - year: "2017"
+    title: 3rd Place
+    organization: ILSVRC (ImageNet Challenge) on Object Detection
+    url: https://image-net.org/challenges/beyond_ilsvrc
+
+services:
+  - category: Senior Program Committee
+    entries:
+      - "Area Chair, International Conference on Machine Learning (ICML): 2027"
+      - "Area Chair, Association for Computational Linguistics (ACL) Rolling Review: 2025, 2026"
+      - "Area Chair, International Conference on Learning Representations (ICLR): 2026"
+      - "Area Chair, Neural Information Processing Systems (NeurIPS): 2025, 2026"
+  - category: Conference Reviewer
+    entries:
+      - "AAAI Conference on Artificial Intelligence (AAAI): 2021, 2022, 2023"
+      - "Association for Computational Linguistics (ACL) Rolling Review: 2022–2025"
+      - "Conference on Computer Vision and Pattern Recognition (CVPR): 2023"
+      - "Conference on Empirical Methods in Natural Language Processing (EMNLP): 2022, 2023"
+      - "International Conference on Learning Representations (ICLR): 2022–2025"
+      - "International Conference on Machine Learning (ICML): 2021–2026"
+      - "Neural Information Processing Systems (NeurIPS): 2021–2024"
+  - category: Journal Reviewer
+    entries:
+      - Transactions on Machine Learning Research (TMLR)
+      - Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+      - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+
+teaching:
+  - semester: 2026 Spring
+    courses:
+      - title: Large Language Models
+        code: CAS 4133
+  - semester: 2025 Fall
+    courses:
+      - title: Deep Neural Networks
+        code: CAS 3201
+      - title: Limitations and Overcoming Strategies of Large Language Models
+        code: AAI 5019
+  - semester: 2025 Spring
+    courses:
+      - title: Large Language Models
+        code: CAS 4133
+      - title: Understanding and Application of Large Language Models
+        code: GEK 6217 & GCB 6103
+        note: Outstanding Teaching Award
+  - semester: 2024 Fall
+    courses:
+      - title: Theory and Practice of Deep Learning
+        code: AAI 3201
+      - title: Limitations and Overcoming Strategies of Large Language Models
+        code: AAI 5019

@@ -77,6 +77,83 @@ You can create new projects by adding new Markdown files in the [\_projects](_pr
 
 You can add news in the about page by adding new Markdown files in the [\_news](_news/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
 
+## Editing the PI profile
+
+The primary menu is PI, members, publications, gallery, apply. The site logo
+links to the home page. The PI page is `/pi/`; the faculty link on Members and
+the contact link on Apply point to this same internal profile.
+
+Edit `_data/pi.yml` to update the profile, Bio, work experience, awards,
+professional services, and teaching. The initial Bio is a draft based on the
+personal website and current lab research areas. Existing non-publication
+profile information was migrated from the personal site. Work experience is
+nested under Bio, teaching is nested under Professional Services, and lab news
+is linked to the existing home page. Publications remain on their own page.
+The profile portrait is stored at `assets/img/jaehyung-kim.jpg`.
+
+## Adding talks
+
+The Talks section at `/pi/#talks` reads `_data/talks.yml`. `/talks/` remains as a
+redirect to that section and is not shown in the menu. Add entries like this:
+
+```yaml
+- title: "Talk title"
+  host: "Inviting institution or event"
+  location: "Seoul, South Korea"
+  date: "2026-10-26"
+  slides_url: "https://drive.google.com/file/d/FILE_ID/view"
+  video_url: "https://drive.google.com/file/d/FILE_ID/view"
+```
+
+Use quoted `YYYY-MM-DD` dates. Talks are sorted newest first and grouped by year.
+If the source gives only a month, use `date: "2026-10"` and `date_precision: month`.
+Months are displayed without an invented day; talks in a future month are
+marked Upcoming using the site build date. The migrated list contains 12
+appearances, preserving the two hosts of the same 2024 talk as separate entries.
+`location`, `slides_url`, and `video_url` are optional. Omit an unavailable link or
+leave it empty; its button will be hidden. Google Drive links are used as supplied,
+so set the slide/video file's sharing permissions to allow the intended audience
+to view it. No Drive integration or file embedding is needed.
+
+## Adding gallery photos
+
+The `/gallery/` page reads `_data/gallery.yml`. Add image files to
+`assets/img/gallery/`, then replace the empty `[]` with a list of photos:
+
+```yaml
+- title: "Photo title"
+  date: "2026-10-26"
+  category: "Lab Life"
+  image: "/assets/img/gallery/photo.jpg"
+  alt: "A description of the people and setting in the photo"
+  caption: "A short memory from the day."
+```
+
+`title`, `date`, and `image` are required. Add descriptive `alt` text for screen
+readers; the title is used as a fallback. `category` and `caption` are
+optional. Categories such as `Lab Life`, `Retreats`, `Conferences`, `Workshops`, and `Events`
+are generated from the data; keep their spelling consistent. The category filter
+appears when more than one category is present. Photos are sorted newest first.
+
+An optional `thumbnail` field can point to a smaller image for the card; `image`
+always points to the full photo. Use web-sized JPG, PNG, or WebP files. Wide group
+photos are displayed without cropping in the cards, and clicking a card shows the full image.
+The viewer supports Previous/Next, arrow keys, Escape, clicking outside the viewer,
+and opening the original file. Without JavaScript, photos still link to their originals.
+
+For photos whose exact day is unknown, use a quoted month (`date: "2026-10"`)
+and `date_precision: month`. The card and viewer then show only the month and
+year. Photos with full `YYYY-MM-DD` dates continue to show the day. The initial
+six photos use the months in their supplied filenames, and their captions are
+drafts for review. Optimized images and thumbnails are stored in the repository;
+the public gallery does not require visitors to sign in to Google Drive. Adding
+files to Drive does not automatically update the website.
+The gallery cards and enlarged viewer omit separate location labels for a consistent layout.
+
+Talks and Gallery show a short empty-state message when their data lists are empty.
+Their layouts are in `_pages/pi.liquid`, `_includes/talk_list.liquid`, and `_pages/gallery.liquid`; styles are
+in `assets/css/lab-content.css`, and gallery interactions are in `assets/js/gallery.js`.
+
 ## Adding Collections
 
 This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on projects page and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
@@ -92,6 +169,52 @@ To access the collections, you can use the `site.COLLECTION_NAME` variable in yo
 To add publications create a new entry in the [\_bibliography/papers.bib](_bibliography/papers.bib) file. You can find the BibTeX entry of a publication in Google Scholar by clicking on the quotation marks below the publication title, then clicking on "BibTeX", or also in the conference page itself. By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](_config.yml) file.
 
 You can add extra information to a publication, like a PDF file in the `assets/pdfs/` directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `annotation`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
+
+### Filtering publications by topic and highlight
+
+The publications page combines a topic, a presentation highlight, and a text search.
+Papers remain grouped by year, and years with no matching papers are hidden.
+Filters enhance the existing bibliography in the browser; without JavaScript, the
+complete bibliography and topic labels remain visible.
+
+Use comma-separated topic IDs in a paper's BibTeX entry:
+
+```bibtex
+keywords={personalization, adaptation},
+highlight={**Oral Presentation**},
+```
+
+The topic vocabulary in `_data/publication_topics.yml` follows the eight
+research areas on the homepage: `alignment`, `personalization`, `safety`,
+`interpretability`, `adaptation`, `self-improvement`, `multimodality`, and
+`evaluation`, in that order. Each topic is independently selectable. A paper can
+have multiple topics. The initial tags are a draft based
+on paper titles and should be reviewed before deployment. Papers without topics
+still appear under All topics and can be found by text search. Add another topic
+ID and display label to the YAML file when needed. Unknown IDs still produce a
+filter button using the keyword itself as the label.
+
+Highlights mean presentation distinctions and awards, not a handpicked selection:
+
+- `Highlights only`: any nonempty `highlight`, `award`, or `award_name` field.
+- `Oral`: the word Oral in `highlight`.
+- `Spotlight`: the word Spotlight in `highlight`.
+- `Awards`: a nonempty `award`/`award_name`, or Award/Prize in `highlight`.
+
+For an award, use the existing theme fields, for example:
+
+```bibtex
+award={Best Paper Award},
+award_name={Best Paper},
+```
+
+Existing highlight descriptions are preserved, including workshop-specific
+distinctions. The `selected` field is not used for this filter. Missing, blank,
+`false`, and `none` values do not qualify as highlights.
+
+The filter has its own search field and does not load the older `bibsearch.js`
+script; the global `bib_search` option continues to apply only to other pages
+that explicitly include `bib_search.liquid`.
 
 ### Author annotation
 

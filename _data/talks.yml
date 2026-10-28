@@ -1,0 +1,50 @@
+# Migrated from the personal site's Invited Talks section.
+# The source gives months, not days. Add slides_url/video_url when available.
+- title: "Aligning LLMs with Individuals and Humanity: From Universal to Personalized Alignment"
+  host: "Fall Conference, Korean Artificial Intelligence Association"
+  date: "2026-11"
+  date_precision: month
+- title: "Auditing LLM Judges: From Human-Grounded Bias Analysis to Broader Discovery"
+  host: "2026 Korea Day @ Microsoft Research Asia"
+  date: "2026-10"
+  date_precision: month
+- title: "Make System Prompts Matter for Safe LLM: From Decoding to Training"
+  host: "Department of Electrical Engineering, UNIST"
+  date: "2026-10"
+  date_precision: month
+- title: "Decoding Algorithms to Attack and Defend LLMs from Jailbreak"
+  host: "AI Security Workshop, Korea Institute of Information Security & Cryptology"
+  date: "2026-07"
+  date_precision: month
+- title: "Basics & Recent Approaches for Safer & Better LLM Agent Utilization"
+  host: "Samsung Display"
+  date: "2026-04"
+  date_precision: month
+- title: "Limitations of Utilizing Large Language Models for Linguistic Research and Potential Solutions"
+  host: "Department of Korean Language and Literature, Yonsei University"
+  date: "2025-09"
+  date_precision: month
+- title: "Beyond the Era of Transformer-based AI Foundation Models"
+  host: "Samsung Future Technology Research"
+  date: "2024-10"
+  date_precision: month
+- title: "Designing New Effective Inference Algorithms for Large Language Models"
+  host: "Ulsan National Institute of Science and Technology (UNIST)"
+  date: "2024-05"
+  date_precision: month
+- title: "Designing New Effective Inference Algorithms for Large Language Models"
+  host: "Amazon Artificial General Intelligence (AGI)"
+  date: "2024-03"
+  date_precision: month
+- title: "Deep Learning with Imbalanced Datasets"
+  host: "Samsung Electronics Data & Information Technology Center"
+  date: "2021-10"
+  date_precision: month
+- title: "Multi-aspect Analysis on Data Informativeness"
+  host: "Summer 2021 Presentation Minnesota NLP Group"
+  date: "2021-08"
+  date_precision: month
+- title: "Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning"
+  host: "NeurIPS 2020 Social ML in Korea"
+  date: "2020-12"
+  date_precision: month

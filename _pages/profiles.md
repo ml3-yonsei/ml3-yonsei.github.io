@@ -9,7 +9,7 @@ page_class: no-title
 
 ### Faculty
 
-- **[Jaehyung Kim](https://sites.google.com/view/jaehyungkim)** - Assistant Professor @ Yonsei AI
+- **[Jaehyung Kim]({{ '/pi/' | relative_url }})** - Assistant Professor @ Yonsei AI
 
 ### Graduate Students 
 
