@@ -1,0 +1,56 @@
+# Draft captions based on the supplied Photos folder and visible photo contents.
+# Dates use the filenames' YYYY-MM with date_precision: month; no day is inferred.
+# Full dates (YYYY-MM-DD) remain supported without date_precision.
+- title: "EMNLP 2026 in Budapest"
+  date: "2026-10"
+  date_precision: month
+  category: "Conferences"
+  image: "/assets/img/gallery/2026-10-emnlp.jpg"
+  thumbnail: "/assets/img/gallery/2026-10-emnlp-thumb.jpg"
+  alt: "ML3 members posing together in front of the EMNLP 2026 conference backdrop."
+  caption: "A group photo from EMNLP 2026."
+
+- title: "COLM 2026 Poster Session"
+  date: "2026-09"
+  date_precision: month
+  category: "Conferences"
+  image: "/assets/img/gallery/2026-09-colm.jpg"
+  thumbnail: "/assets/img/gallery/2026-09-colm-thumb.jpg"
+  alt: "Attendees gathered around an ML3 research poster during a COLM 2026 poster session."
+  caption: "Sharing our work and discussing ideas at a COLM poster session."
+
+- title: "ML Joint Workshop at Yonsei"
+  date: "2026-08"
+  date_precision: month
+  category: "Workshops"
+  image: "/assets/img/gallery/2026-08-ml-joint-workshop.jpg"
+  thumbnail: "/assets/img/gallery/2026-08-ml-joint-workshop-thumb.jpg"
+  alt: "Workshop participants posing together beneath a 2026 ML Joint Workshop at Yonsei banner."
+  caption: "Together at the 2026 ML Joint Workshop."
+
+- title: "ICML 2026 in Seoul"
+  date: "2026-07"
+  date_precision: month
+  category: "Conferences"
+  image: "/assets/img/gallery/2026-07-icml.jpg"
+  thumbnail: "/assets/img/gallery/2026-07-icml-thumb.jpg"
+  alt: "ML3 members posing in front of the ICML 2026 conference backdrop in Seoul."
+  caption: "Together at ICML 2026."
+
+- title: "Teacher's Day at ML3"
+  date: "2026-05"
+  date_precision: month
+  category: "Lab Life"
+  image: "/assets/img/gallery/2026-05-teachers-day.jpg"
+  thumbnail: "/assets/img/gallery/2026-05-teachers-day-thumb.jpg"
+  alt: "ML3 members celebrating Teacher's Day in the lab with a handmade message board."
+  caption: "Celebrating Teacher's Day together in the lab."
+
+- title: "ICLR 2026"
+  date: "2026-04"
+  date_precision: month
+  category: "Conferences"
+  image: "/assets/img/gallery/2026-04-iclr.jpg"
+  thumbnail: "/assets/img/gallery/2026-04-iclr-thumb.jpg"
+  alt: "ML3 members posing together beside the ICLR conference welcome sign."
+  caption: "A group photo from ICLR 2026."

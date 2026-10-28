@@ -1,0 +1,12 @@
+{% if entry.keywords != blank %}
+  {% assign paper_topics = entry.keywords | split: ',' %}
+  <div class="publication-topics" aria-label="Research topics">
+    {% for paper_topic in paper_topics %}
+      {% assign topic_id = paper_topic | strip | downcase %}
+      {% if topic_id != '' %}
+        {% assign topic_info = site.data.publication_topics | where: 'id', topic_id | first %}
+        <span class="publication-topic" data-publication-topic="{{ topic_id | escape }}">{{ topic_info.label | default: paper_topic | strip | escape }}</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,89 @@
+---
+layout: page
+title: PI
+permalink: /pi/
+nav: true
+nav_order: 1
+page_class: no-title
+lab_content: true
+description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of the Machine and Language Learning Lab.
+---
+
+{% assign pi = site.data.pi %}
+<div class="lab-content pi-page">
+  <header class="pi-profile">
+    <img class="pi-portrait" src="{{ pi.portrait | relative_url }}" alt="Portrait of {{ pi.name | escape }}" width="600" height="836" decoding="async">
+    <div class="pi-profile-info">
+      <p class="pi-eyebrow">Principal Investigator · ML3</p>
+      <h1>{{ pi.name | escape }}</h1>
+      <p class="pi-affiliation">{{ pi.position | escape }}<br>{{ pi.department | escape }}<br>{{ pi.institution | escape }}</p>
+      <p class="pi-contact"><a href="mailto:{{ pi.email | escape }}">{{ pi.email | escape }}</a><br><a href="mailto:{{ pi.alternate_email | escape }}">{{ pi.alternate_email | escape }}</a></p>
+      <div class="talk-links">
+        <a class="lab-resource-link" href="{{ pi.scholar_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+        <a class="lab-resource-link" href="{{ pi.cv_url | escape }}" target="_blank" rel="noopener noreferrer">CV <span class="pi-cv-date">({{ pi.cv_updated | escape }})</span> <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="pi-section-links" aria-label="On this page">
+    <a href="#bio">Bio</a>
+    <a href="#awards">Awards</a>
+    <a href="#professional-services">Professional Services</a>
+    <a href="#talks">Talks</a>
+  </nav>
+
+  <section class="pi-section" id="bio" aria-labelledby="bio-heading">
+    <h2 id="bio-heading">Bio</h2>
+    <div class="pi-bio">{{ pi.bio | markdownify }}</div>
+    <p class="pi-lab-news-link">For the latest lab news, visit the <a href="{{ '/' | relative_url }}">ML3 homepage</a>.</p>
+
+    <h3>Work Experience</h3>
+    <ul class="pi-experience-list">
+      {% for experience in pi.experience %}
+        <li>
+          <div class="pi-entry-heading"><strong>{{ experience.role | escape }}, <a href="{{ experience.url | escape }}">{{ experience.organization | escape }}</a></strong><span class="pi-entry-date">{{ experience.period | escape }}</span></div>
+          <p>{{ experience.location | escape }} · with {{ experience.collaborators | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="pi-section" id="awards" aria-labelledby="awards-heading">
+    <h2 id="awards-heading">Awards</h2>
+    <ul class="pi-awards-list">
+      {% for award in pi.awards %}
+        <li>
+          <span class="pi-award-year">{{ award.year | escape }}</span>
+          <span>{% if award.url %}<a href="{{ award.url | escape }}">{{ award.title | escape }}</a>{% else %}<strong>{{ award.title | escape }}</strong>{% endif %}{% if award.detail %} ({{ award.detail | escape }}){% endif %}, {{ award.organization | escape }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="pi-section" id="professional-services" aria-labelledby="services-heading">
+    <h2 id="services-heading">Professional Services</h2>
+    {% for service in pi.services %}
+      <h3>{{ service.category | escape }}</h3>
+      <ul class="pi-service-list">
+        {% for entry in service.entries %}<li>{{ entry | escape }}</li>{% endfor %}
+      </ul>
+    {% endfor %}
+
+    <details class="pi-teaching">
+      <summary>Teaching</summary>
+      {% for term in pi.teaching %}
+        <h4>{{ term.semester | escape }}</h4>
+        <ul class="pi-service-list">
+          {% for course in term.courses %}
+            <li>{{ course.title | escape }} ({{ course.code | escape }}){% if course.note %}<br><span class="pi-teaching-note">{{ course.note | escape }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </details>
+  </section>
+
+  <section class="pi-section" id="talks" aria-labelledby="talks-heading">
+    <h2 id="talks-heading">Talks</h2>
+    {% include talk_list.liquid %}
+  </section>
+</div>

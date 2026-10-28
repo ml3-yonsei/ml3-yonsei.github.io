@@ -1,0 +1,17 @@
+# Stable IDs are used in each paper's comma-separated keywords field.
+- id: alignment
+  label: Alignment
+- id: personalization
+  label: Personalization
+- id: safety
+  label: Safety
+- id: interpretability
+  label: Interpretability
+- id: adaptation
+  label: Adaptation
+- id: self-improvement
+  label: Self-improvement
+- id: multimodality
+  label: Multimodality
+- id: evaluation
+  label: Evaluation

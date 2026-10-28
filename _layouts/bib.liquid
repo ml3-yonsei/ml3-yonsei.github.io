@@ -1,6 +1,13 @@
 ---
 ---
-<div class="row">
+<div
+  class="row"
+  data-publication
+  data-publication-key="{{ entry.key | escape }}"
+  data-highlight="{{ entry.highlight | default: '' | strip_html | escape }}"
+  data-award="{{ entry.award | default: '' | strip_html | escape }}"
+  data-award-name="{{ entry.award_name | default: '' | strip_html | escape }}"
+>
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -210,6 +217,10 @@
       <div class="pub-highlight">
         {{ entry.highlight | markdownify | remove: '<p>' | remove: '</p>' }}
       </div>
+    {% endif %}
+
+    {% if page.publication_filters %}
+      {% include publication_topics.liquid %}
     {% endif %}
 
     <!-- Links/Buttons -->

@@ -5,15 +5,18 @@ title: publications
 nav: true
 nav_order: 3
 page_class: no-title
+publication_filters: true
 ---
 
-<!-- _pages/publications.md -->
+<section class="publication-page" aria-labelledby="publications-heading" data-publications-page>
+<header class="publication-page-header">
+  <h1 id="publications-heading">Publications</h1>
+  <p>Explore our research by topic and presentation highlights.</p>
+</header>
 
-<!-- Bibsearch Feature -->
+{% include publication_filters.liquid %}
 
-{% include bib_search.liquid %}
-
-<div class="publications">
+<div class="publications" id="publication-list" data-publication-list>
 
 <p class="author-note">
   <sup>*</sup> denotes equal contribution. <sup>†</sup> denotes equal advising.
@@ -22,3 +25,6 @@ page_class: no-title
 {% bibliography %}
 
 </div>
+
+<p class="publication-no-results" data-publication-empty hidden>No papers match these filters. Try another topic or clear the filters.</p>
+</section>

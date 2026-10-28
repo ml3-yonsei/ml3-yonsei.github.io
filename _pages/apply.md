@@ -3,7 +3,7 @@ layout: page
 title: apply
 permalink: /apply/
 nav: true
-nav_order: 4
+nav_order: 5
 page_class: no-title
 ---
 
@@ -16,5 +16,5 @@ The goal of ML3 is to build intelligent yet human-aligned AI system. To this end
 
 ### How to apply? 
 
-To apply for the graduate or internship program at our lab, please send an email to [Jaehyung](https://sites.google.com/view/jaehyungkim) with (1) your transcript and (2) CV. 
+To apply for the graduate or internship program at our lab, please send an email to [Jaehyung]({{ '/pi/' | relative_url }}) with (1) your transcript and (2) CV.
 

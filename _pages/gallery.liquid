@@ -1,0 +1,89 @@
+---
+layout: page
+title: gallery
+permalink: /gallery/
+nav: true
+nav_order: 4
+page_class: no-title
+lab_content: true
+description: Group photos and shared moments from life at Yonsei ML3.
+---
+
+<section class="lab-content" aria-labelledby="gallery-heading" data-gallery>
+  <header class="lab-page-header">
+    <h1 id="gallery-heading">Gallery</h1>
+    <p>Life at ML3 — the people, places, and moments we share.</p>
+  </header>
+
+  {% assign photos = site.data.gallery | sort: 'date' | reverse %}
+  {% if photos.size > 0 %}
+    {% assign categories = photos | map: 'category' | compact | uniq | sort %}
+    {% if categories.size > 1 %}
+      <div class="gallery-filters" role="group" aria-label="Filter photos by category" hidden>
+        <button type="button" class="gallery-filter" data-gallery-filter="all" aria-pressed="true" aria-controls="gallery-grid">All</button>
+        {% for category in categories %}
+          {% if category != '' %}
+            <button type="button" class="gallery-filter" data-gallery-filter="{{ category | escape }}" aria-pressed="false" aria-controls="gallery-grid">{{ category | escape }}</button>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <p class="sr-only" data-gallery-status role="status" aria-live="polite" aria-atomic="true"></p>
+    <div class="gallery-grid" id="gallery-grid">
+      {% for photo in photos %}
+        {% if photo.date_precision == 'month' %}
+          {% assign photo_datetime = photo.date %}
+          {% assign photo_date = photo.date | append: '-01' | date: '%b %Y' %}
+        {% else %}
+          {% assign photo_datetime = photo.date | date: '%Y-%m-%d' %}
+          {% assign photo_date = photo.date | date: '%b %d, %Y' %}
+        {% endif %}
+        <article class="gallery-card" data-gallery-card data-category="{{ photo.category | escape }}">
+          <a class="gallery-photo-link" href="{{ photo.image | relative_url }}" data-gallery-photo aria-label="View photo: {{ photo.title | escape }}">
+            <img
+              src="{{ photo.thumbnail | default: photo.image | relative_url }}"
+              alt="{{ photo.alt | default: photo.title | escape }}"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="gallery-enlarge" aria-hidden="true">View photo <span>↗</span></span>
+          </a>
+          <div class="gallery-card-body">
+            <p class="gallery-meta"><time datetime="{{ photo_datetime | escape }}">{{ photo_date }}</time>{% if photo.category and photo.category != '' %}<span>{{ photo.category | escape }}</span>{% endif %}</p>
+            <h2 data-photo-title>{{ photo.title | escape }}</h2>
+            {% if photo.caption and photo.caption != '' %}<p class="gallery-caption" data-photo-caption>{{ photo.caption | escape }}</p>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+
+    <dialog class="gallery-lightbox" aria-labelledby="gallery-lightbox-title" aria-describedby="gallery-lightbox-caption" data-gallery-dialog>
+      <div class="gallery-lightbox-content">
+        <div class="gallery-lightbox-toolbar">
+          <span class="gallery-lightbox-counter" aria-live="polite" data-gallery-counter></span>
+          <button type="button" class="gallery-lightbox-button" data-gallery-close aria-label="Close photo">Close <span aria-hidden="true">×</span></button>
+        </div>
+        <figure class="gallery-lightbox-figure">
+          <img class="gallery-lightbox-image" data-gallery-image alt="">
+          <figcaption>
+            <h2 id="gallery-lightbox-title"></h2>
+            <p class="gallery-lightbox-meta" data-gallery-meta></p>
+            <p id="gallery-lightbox-caption"></p>
+          </figcaption>
+        </figure>
+        <div class="gallery-lightbox-navigation">
+          <button type="button" class="gallery-lightbox-button" data-gallery-prev aria-label="Previous photo"><span aria-hidden="true">←</span> Previous</button>
+          <a class="gallery-lightbox-button" data-gallery-original target="_blank" rel="noopener noreferrer">Open full image <span aria-hidden="true">↗</span></a>
+          <button type="button" class="gallery-lightbox-button" data-gallery-next aria-label="Next photo">Next <span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+    </dialog>
+    <script src="{{ '/assets/js/gallery.js' | relative_url }}" defer></script>
+  {% else %}
+    <div class="lab-empty-state">
+      <h2>Our album is on its way</h2>
+      <p>Group photos and memories from life at ML3 will be shared here.</p>
+    </div>
+  {% endif %}
+</section>
