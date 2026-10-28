@@ -9,22 +9,20 @@ selected_papers: false
 social: false
 ---
 
-**Welcome to the Machine and Language Learning Lab (ML3) at Yonsei AI.** Our mission is to build intelligent yet human-aligned AI system, by developing machine learning algorithms using language as a main tool for this.
+**Welcome to the Machine and Language Learning Lab (ML3) at Yonsei AI**. Our mission is to build AI systems that are both highly capable and aligned with humans. We pursue this mission through machine learning with *language*, a natural interface between humans and machines, as our central lens while extending our research to other modalities.
 
-Recently, we’re mainly working on large language models (LLMs) including the below topics, but are not limited to:
+Our current research centers on large language models and their multimodal extensions, organized around two complementary directions:
 
-- Alignment (e.g., personalization) and Safety
-- Reasoning and Self-improvement
-- Efficiency and Adaptation
-- Extension toward Multi-modality
+- Human-centered AI: Alignment, personalization, safety, and interpretability.
+- Generalizable AI: Adaptation, self-improvement, multimodality, and evaluation.
 
 ---
 
 <div class="news">
   <div style="display: flex; align-items: baseline;">
-    <h2>Recent News</h2>
+    <h2 style="font-size: 1.5rem;">Recent News</h2>
     <a href="/news/" style="font-size: 0.9rem; font-weight: 500; margin-left: 0.75rem;">(show all)</a>
   </div>
   
-  {% include news.liquid limit=5 scrollable=true %}
+  {% include news.liquid limit=10 scrollable=true %}
 </div>
