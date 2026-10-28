@@ -13,7 +13,7 @@ page_class: no-title
 
 ### Graduate Students 
 
-- **[Hamin Koo](https://hamin2065.github.io/)** - MS (2025 Spring)
+- **[Hamin Koo](https://hamin2065.github.io/)** - MS/Ph.D. (2025 Spring)
 - **Hojin Kim** - MS (2025 Spring)
 - **Jinhyeong Kim** - MS (2025 Spring)
 - **[Beomsik Cho](https://bscho333.notion.site/)** - MS (2025 Spring)
@@ -29,7 +29,6 @@ page_class: no-title
 - **[Chanjoo Jung](https://sites.google.com/view/chanjoojung/)** - MS (2026 Fall)
 - **Youngjoo Lee** - MS (2026 Fall)
 
-
 ### Interns 
 
 - **Yejun Chun** - BS, Yonsei University
@@ -39,6 +38,9 @@ page_class: no-title
 - **Jaewon Jung** - BS, Yonsei University
 - **Harin Lee** - BS, Yonsei University
 - **Sehyun Nam** - BS, Yonsei University
+- **Yejin Kim** - BS, Yonsei University
+- **[Jaewook Lee](https://scholar.google.com/citations?user=ID95uUAAAAAJ&hl=ko)** - Selectstar.AI 
+- **[Jungwhan Kim](https://scholar.google.co.kr/citations?user=EB-MgDUAAAAJ&hl=en)** - Naver Cloud
 
 ### Alumni 
 
