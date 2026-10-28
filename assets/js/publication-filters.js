@@ -86,7 +86,9 @@
       recognition !== "all" ? highlightLabel : "",
       query ? `Search: ${search.value.trim()}` : "",
     ].filter(Boolean);
-    status.textContent = `${count} of ${papers.length} ${papers.length === 1 ? "paper" : "papers"}${details.length ? ` · ${details.join(" · ")}` : ""}`;
+    status.textContent = `${count} of ${papers.length} ${papers.length === 1 ? "paper" : "papers"}${
+      details.length ? ` · ${details.join(" · ")}` : ""
+    }`;
     empty.hidden = count > 0;
     clear.disabled = topic === "all" && recognition === "all" && !query;
   }
