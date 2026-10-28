@@ -185,7 +185,7 @@ files to Drive does not automatically update the website.
 The gallery cards and enlarged viewer omit separate location labels for a consistent layout.
 
 Talks and Gallery show a short empty-state message when their data lists are empty.
-Their layouts are in `_pages/pi.liquid`, `_includes/talk_list.liquid`, and `_pages/gallery.liquid`; styles are
+Their layouts are in `_pages/pi.html`, `_includes/talk_list.liquid`, and `_pages/gallery.html`; styles are
 in `assets/css/lab-content.css`, and gallery interactions are in `assets/js/gallery.js`.
 
 ## Adding Collections
