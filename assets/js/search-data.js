@@ -66,7 +66,7 @@ ninja.data = [{
           section: "News",},{id: "news-the-homepage-of-ml3-yonsei-is-now-live",
           title: 'The homepage of ML3 @ Yonsei is now live!',
           description: "",
-          section: "News",},{id: "news-three-papers-cope-prime-and-cleanmol-are-accepted-to-emnlp-2025-including-oral-presentation-357-3548-10-0",
+          section: "News",},{id: "news-three-papers-cope-prime-and-cleanmol-are-accepted-to-emnlp-2025-including-oral-presentation-325-8174-3-98",
           title: 'Three papers (CoPe, PriME and CLEANMOL) are accepted to EMNLP 2025, including Oral...',
           description: "",
           section: "News",},{id: "news-two-papers-robot-r1-and-dllm-conv-are-accepted-to-neurips-2025-including-spotlight-presentation-207-21575-3-19",
