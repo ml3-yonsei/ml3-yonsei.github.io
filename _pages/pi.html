@@ -20,7 +20,6 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
       decoding="async"
     >
     <div class="pi-profile-info">
-      <p class="pi-eyebrow">Principal Investigator · ML3</p>
       <h1>{{ pi.name | escape }}</h1>
       <p class="pi-affiliation">
         {{ pi.position | escape -}}
@@ -30,7 +29,7 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
         {{ pi.institution | escape }}
       </p>
       <p class="pi-contact">
-        <a href="mailto:{{ pi.email | escape }}">{{ pi.email | escape }}</a><br>
+        <a href="mailto:{{ pi.email | escape }}">{{ pi.email | escape }}</a> ·
         <a href="mailto:{{ pi.alternate_email | escape }}">{{ pi.alternate_email | escape }}</a>
       </p>
       <div class="talk-links">
@@ -38,7 +37,7 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
           >Google Scholar <span aria-hidden="true">↗</span></a
         >
         <a class="lab-resource-link" href="{{ pi.cv_url | escape }}" target="_blank" rel="noopener noreferrer"
-          >CV <span class="pi-cv-date">({{ pi.cv_updated | escape }})</span> <span aria-hidden="true">↗</span></a
+          >CV <span aria-hidden="true">↗</span></a
         >
       </div>
     </div>
