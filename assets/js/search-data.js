@@ -69,7 +69,7 @@ ninja.data = [{
           section: "News",},{id: "news-three-papers-cope-prime-and-cleanmol-are-accepted-to-emnlp-2025-including-oral-presentation-325-8174-3-98",
           title: 'Three papers (CoPe, PriME and CLEANMOL) are accepted to EMNLP 2025, including Oral...',
           description: "",
-          section: "News",},{id: "news-two-papers-robot-r1-and-dllm-conv-are-accepted-to-neurips-2025-including-spotlight-presentation-207-21575-3-19",
+          section: "News",},{id: "news-two-papers-robot-r1-and-dllm-conv-are-accepted-to-neurips-2025-including-spotlight-presentation-688-21575-3-19",
           title: 'Two papers (Robot-R1 and DLLM-Conv) are accepted to NeurIPS 2025, including Spotlight Presentation...',
           description: "",
           section: "News",},{id: "news-lfu-is-accepted-to-aaai-2026-as-oral-presentation",
