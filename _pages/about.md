@@ -13,8 +13,8 @@ social: false
 
 Our current research centers on large language models and their multimodal extensions, organized around two complementary directions:
 
-- Human-centered AI: Alignment, personalization, safety, and interpretability
-- Generalizable AI: Adaptation, self-improvement, multimodality, and evaluation
+- **Human-centered AI**: Alignment, personalization, safety, and interpretability
+- **Generalizable AI**: Adaptation, self-improvement, multimodality, and evaluation
 
 ---
 
