@@ -53,6 +53,8 @@ awards:
     title: 3 Oral Presentations (EMNLP), 2 Oral Presentations (ACL), Spotlight Presentation (ICML)
   - year: "2025"
     title: Oral Presentation (ICLR), Spotlight Presentation (NeurIPS), Oral Presentation (EMNLP)
+  - year: "2025"
+    title: Outstanding Teaching Award (2025 Spring)
 
 services:
   - category: Senior Program Committee
@@ -61,3 +63,12 @@ services:
       - "Area Chair, Association for Computational Linguistics (ACL) Rolling Review: 2025, 2026"
       - "Area Chair, International Conference on Learning Representations (ICLR): 2026"
       - "Area Chair, Neural Information Processing Systems (NeurIPS): 2025, 2026"
+  - category: Teaching
+    entries:
+      - "Deep Neural Networks (undergrad.): Fall (2024-2026)"
+      - "Large Language Models (undergrad.): Spring (2025-2027)"
+      - "Limitations and Overcoming Strategies of Large Language Models (grad.): Fall (2024-2026)"
+      - "Recent Advances in Large Language Models (grad.): Fall (2025, 2026)"
+      - "Understanding and Application of Large Language Models (grad.): Spring (2025, 2027)"
+      
+  
