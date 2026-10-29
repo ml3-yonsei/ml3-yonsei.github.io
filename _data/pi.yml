@@ -49,24 +49,40 @@ awards:
     title: SAC Highlight Award
     organization: EMNLP
     url: https://drive.google.com/file/d/1IeTJjwzWP9sP1wUEzswYydobcwuEk-RS/view?usp=sharing
-  - year: "2022"
-    title: Winner
-    organization: Qualcomm Innovation Fellowship Korea
-    detail: "$5,000"
-    url: https://www.qualcomm.com/research/university-relations/innovation-fellowship/winners
-  - year: "2021"
-    title: Silver Prize
-    organization: Samsung Humantech Paper Awards
-    detail: "$7,000"
-  - year: "2021"
-    title: Winner
-    organization: Qualcomm Innovation Fellowship Korea
-    detail: "$5,000"
-    url: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2021-south-korea
-  - year: "2017"
-    title: 3rd Place
-    organization: ILSVRC (ImageNet Challenge) on Object Detection
-    url: https://image-net.org/challenges/beyond_ilsvrc
+  # Presentation counts are grouped from _bibliography/papers.bib (2024 onward).
+  - year: "2026"
+    title: 2 Oral Presentations
+    organization: EMNLP
+    detail: Top 2.92%
+  - year: "2026"
+    title: 2 Oral Presentations
+    organization: ACL
+    # Omit the percentage: the bibliography's count differs from the official preface.
+    # https://aclanthology.org/2026.acl-long.0.pdf
+  - year: "2026"
+    title: 1 Spotlight Presentation
+    organization: ICML
+    # Official conference announcement: 536 / 23,918 submissions = 2.24%.
+    # https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
+    detail: Top 2.24%
+  - year: "2026"
+    title: 1 Oral Presentation
+    organization: AAAI
+  - year: "2026"
+    title: 1 Spotlight Presentation
+    organization: ICML Workshop ES-FoMo-III
+  - year: "2025"
+    title: 1 Spotlight Presentation
+    organization: NeurIPS
+    detail: Top 3.19%
+  - year: "2025"
+    title: 1 Oral Presentation
+    organization: EMNLP
+    detail: Top 3.98%
+  - year: "2025"
+    title: 1 Oral Presentation
+    organization: ICLR
+    detail: Top 1.82%
 
 services:
   - category: Senior Program Committee
@@ -75,42 +91,3 @@ services:
       - "Area Chair, Association for Computational Linguistics (ACL) Rolling Review: 2025, 2026"
       - "Area Chair, International Conference on Learning Representations (ICLR): 2026"
       - "Area Chair, Neural Information Processing Systems (NeurIPS): 2025, 2026"
-  - category: Conference Reviewer
-    entries:
-      - "AAAI Conference on Artificial Intelligence (AAAI): 2021, 2022, 2023"
-      - "Association for Computational Linguistics (ACL) Rolling Review: 2022–2025"
-      - "Conference on Computer Vision and Pattern Recognition (CVPR): 2023"
-      - "Conference on Empirical Methods in Natural Language Processing (EMNLP): 2022, 2023"
-      - "International Conference on Learning Representations (ICLR): 2022–2025"
-      - "International Conference on Machine Learning (ICML): 2021–2026"
-      - "Neural Information Processing Systems (NeurIPS): 2021–2024"
-  - category: Journal Reviewer
-    entries:
-      - Transactions on Machine Learning Research (TMLR)
-      - Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
-      - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
-
-teaching:
-  - semester: 2026 Spring
-    courses:
-      - title: Large Language Models
-        code: CAS 4133
-  - semester: 2025 Fall
-    courses:
-      - title: Deep Neural Networks
-        code: CAS 3201
-      - title: Limitations and Overcoming Strategies of Large Language Models
-        code: AAI 5019
-  - semester: 2025 Spring
-    courses:
-      - title: Large Language Models
-        code: CAS 4133
-      - title: Understanding and Application of Large Language Models
-        code: GEK 6217 & GCB 6103
-        note: Outstanding Teaching Award
-  - semester: 2024 Fall
-    courses:
-      - title: Theory and Practice of Deep Learning
-        code: AAI 3201
-      - title: Limitations and Overcoming Strategies of Large Language Models
-        code: AAI 5019

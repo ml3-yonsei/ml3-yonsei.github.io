@@ -117,12 +117,14 @@ The primary menu is PI, members, publications, gallery, apply. The site logo
 links to the home page. The PI page is `/pi/`; the faculty link on Members and
 the contact link on Apply point to this same internal profile.
 
-Edit `_data/pi.yml` to update the profile, Bio, work experience, awards,
-professional services, and teaching. The initial Bio is a draft based on the
-personal website and current lab research areas. Existing non-publication
-profile information was migrated from the personal site. Work experience is
-nested under Bio, teaching is nested under Professional Services, and lab news
-is linked to the existing home page. Publications remain on their own page.
+Edit `_data/pi.yml` to update the profile, Bio, awards, and professional services.
+Bio is a three-paragraph narrative supplied by Jaehyung Kim. There is no separate
+Work Experience or Teaching list. Professional Services contains only the
+Senior Program Committee category. Publications remain on their own page.
+Awards contains the SAC Highlight Award and Oral/Spotlight counts from 2024
+onward, grouped by conference and year. Keep workshop distinctions separate from
+the main conference. `detail` is optional and displays a selection percentage
+when supported by reliable data; omit it when the percentage is uncertain.
 The profile portrait is stored at `assets/img/jaehyung-kim.jpg`.
 
 ## Adding talks
@@ -142,8 +144,8 @@ redirect to that section and is not shown in the menu. Add entries like this:
 Use quoted `YYYY-MM-DD` dates. Talks are sorted newest first and grouped by year.
 If the source gives only a month, use `date: "2026-10"` and `date_precision: month`.
 Months are displayed without an invented day; talks in a future month are
-marked Upcoming using the site build date. The migrated list contains 12
-appearances, preserving the two hosts of the same 2024 talk as separate entries.
+marked Upcoming using the site build date. The current list starts in 2024,
+preserving the two hosts of the same 2024 talk as separate entries.
 `location`, `slides_url`, and `video_url` are optional. Omit an unavailable link or
 leave it empty; its button will be hidden. Google Drive links are used as supplied,
 so set the slide/video file's sharing permissions to allow the intended audience

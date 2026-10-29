@@ -84,24 +84,6 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
         {% endfor %}
       </ul>
     {% endfor %}
-
-    <details class="pi-teaching">
-      <summary>Teaching</summary>
-      {% for term in pi.teaching %}
-        <h4>{{ term.semester | escape }}</h4>
-        <ul class="pi-service-list">
-          {% for course in term.courses %}
-            <li>
-              {{ course.title | escape }} ({{ course.code | escape }})
-              {%- if course.note -%}
-                <br>
-                <span class="pi-teaching-note">{{ course.note | escape }}</span>
-              {%- endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
-    </details>
   </section>
 
   <section class="pi-section" id="talks" aria-labelledby="talks-heading">

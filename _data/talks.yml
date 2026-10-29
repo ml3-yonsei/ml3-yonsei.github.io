@@ -36,15 +36,3 @@
   host: "Amazon Artificial General Intelligence (AGI)"
   date: "2024-03"
   date_precision: month
-- title: "Deep Learning with Imbalanced Datasets"
-  host: "Samsung Electronics Data & Information Technology Center"
-  date: "2021-10"
-  date_precision: month
-- title: "Multi-aspect Analysis on Data Informativeness"
-  host: "Summer 2021 Presentation Minnesota NLP Group"
-  date: "2021-08"
-  date_precision: month
-- title: "Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning"
-  host: "NeurIPS 2020 Social ML in Korea"
-  date: "2020-12"
-  date_precision: month
