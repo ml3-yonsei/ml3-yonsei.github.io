@@ -11,7 +11,6 @@ publication_filters: true
 <section class="publication-page" aria-labelledby="publications-heading" data-publications-page>
 <header class="publication-page-header">
   <h1 id="publications-heading">Publications</h1>
-  <p>Explore our research by topic and presentation highlights.</p>
 </header>
 
 {% include publication_filters.liquid %}
