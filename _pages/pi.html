@@ -53,21 +53,6 @@ description: Jaehyung Kim, Assistant Professor at Yonsei University and PI of th
   <section class="pi-section" id="bio" aria-labelledby="bio-heading">
     <h2 id="bio-heading">Bio</h2>
     <div class="pi-bio">{{ pi.bio | markdownify }}</div>
-    <p class="pi-lab-news-link">For the latest lab news, visit the <a href="{{ '/' | relative_url }}">ML3 homepage</a>.</p>
-
-    <h3>Work Experience</h3>
-    <ul class="pi-experience-list">
-      {% for experience in pi.experience %}
-        <li>
-          <div class="pi-entry-heading">
-            <strong>
-              {{- experience.role | escape }}, <a href="{{ experience.url | escape }}">{{ experience.organization | escape }}</a></strong
-            ><span class="pi-entry-date">{{ experience.period | escape }}</span>
-          </div>
-          <p>{{ experience.location | escape }} · with {{ experience.collaborators | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-        </li>
-      {% endfor %}
-    </ul>
   </section>
 
   <section class="pi-section" id="awards" aria-labelledby="awards-heading">

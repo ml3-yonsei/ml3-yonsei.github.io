@@ -1,5 +1,5 @@
 # Migrated from https://sites.google.com/view/jaehyungkim.
-# Bio is an editorial draft based on that profile and the current lab research areas.
+# Bio text supplied by Jaehyung Kim.
 name: Jaehyung Kim
 position: Assistant Professor
 department: Department of Artificial Intelligence
@@ -12,11 +12,11 @@ cv_url: https://drive.google.com/file/d/1MVBNs9KStuvPUDxzpItXGEze44L7jMpy/view?u
 cv_updated: Jan 2026
 
 bio: |
-  I am an Assistant Professor in the Department of Artificial Intelligence at Yonsei University, where I lead the Machine and Language Learning Lab (ML3).
+  Jaehyung Kim is an Assistant Professor in the Department of Artificial Intelligence at Yonsei University, where he leads the Machine and Language Learning Lab (ML3). He received his B.S. degree in mathematical sciences from KAIST in 2017 and his M.Sc. and Ph.D. degrees in electrical engineering from KAIST in 2019 and 2024, respectively. His doctoral research was supervised by Jinwoo Shin.
 
-  My research aims to build AI systems that are both highly capable and aligned with humans. I develop machine learning and natural language processing algorithms, with a focus on large language models and their multimodal extensions. My interests span alignment, personalization, safety, interpretability, adaptation, self-improvement, multimodality, and evaluation, with the goal of making these systems more accurate and reliable in real-world settings.
+  Before joining Yonsei University in September 2024, he was a postdoctoral researcher at Carnegie Mellon University from January to August 2024, working with Yiming Yang. During his doctoral studies, he was a research intern at Meta AI and a visiting student at the University of Minnesota, where he worked with Dongyeop Kang. His research experience also includes a research visit to the Samsung Advanced Institute of Technology and collaboration with NAVER AI.
 
-  Previously, I was a postdoctoral researcher at Carnegie Mellon University, working with [Yiming Yang](https://www.cs.cmu.edu/~./yiming/). I received my Ph.D. from KAIST under the supervision of [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html). During my Ph.D., I also worked closely with [Dongyeop Kang](https://dykang.github.io/) at the University of Minnesota.
+  His research focuses on machine learning and natural language processing, with an emphasis on large language models. He aims to develop AI systems that are highly capable, reliable, and aligned with human needs and values. His work has been selected for oral and spotlight presentations at leading machine learning and natural language processing conferences, including ICLR, ICML, NeurIPS, ACL, and EMNLP. He also received the SAC Highlight Award at EMNLP 2026.
 
 experience:
   - role: Collaborator
