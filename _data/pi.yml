@@ -48,41 +48,11 @@ awards:
   - year: "2026"
     title: SAC Highlight Award
     organization: EMNLP
-    url: https://drive.google.com/file/d/1IeTJjwzWP9sP1wUEzswYydobcwuEk-RS/view?usp=sharing
   # Presentation counts are grouped from _bibliography/papers.bib (2024 onward).
   - year: "2026"
-    title: 2 Oral Presentations
-    organization: EMNLP
-    detail: Top 2.92%
-  - year: "2026"
-    title: 2 Oral Presentations
-    organization: ACL
-    # Omit the percentage: the bibliography's count differs from the official preface.
-    # https://aclanthology.org/2026.acl-long.0.pdf
-  - year: "2026"
-    title: 1 Spotlight Presentation
-    organization: ICML
-    # Official conference announcement: 536 / 23,918 submissions = 2.24%.
-    # https://www.linkedin.com/posts/icmlconf_decision-notifications-are-being-released-activity-7455685189479055361-PXq3
-    detail: Top 2.24%
-  - year: "2026"
-    title: 1 Oral Presentation
-    organization: AAAI
-  - year: "2026"
-    title: 1 Spotlight Presentation
-    organization: ICML Workshop ES-FoMo-III
+    title: 3 Oral Presentations (EMNLP), 2 Oral Presentations (ACL), Spotlight Presentation (ICML)
   - year: "2025"
-    title: 1 Spotlight Presentation
-    organization: NeurIPS
-    detail: Top 3.19%
-  - year: "2025"
-    title: 1 Oral Presentation
-    organization: EMNLP
-    detail: Top 3.98%
-  - year: "2025"
-    title: 1 Oral Presentation
-    organization: ICLR
-    detail: Top 1.82%
+    title: Oral Presentation (ICLR), Spotlight Presentation (NeurIPS), Oral Presentation (EMNLP)
 
 services:
   - category: Senior Program Committee
