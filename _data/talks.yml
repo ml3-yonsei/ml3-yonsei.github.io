@@ -1,5 +1,9 @@
 # Migrated from the personal site's Invited Talks section.
 # The source gives months, not days. Add slides_url/video_url when available.
+- title: "Make System Prompts Matter for Safe LLM: From Decoding to Training"
+  host: "College of Computing and Informatics, SKKU"
+  date: "2026-12"
+  date_precision: month
 - title: "Aligning LLMs with Individuals and Humanity: From Universal to Personalized Alignment"
   host: "Fall Conference, Korean Artificial Intelligence Association"
   date: "2026-11"
